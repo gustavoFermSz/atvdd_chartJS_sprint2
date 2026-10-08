@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(19, 19, 19);
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: Arial, Helvetica, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.containerGraficos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: fit-content;
+    gap: 0;
+
+    background-color: rgb(19, 19, 19);
+}
+
+.containerGraficos canvas {
+    min-height: 50vh;
+    background-color: whitesmoke;
+
+}
+
+
+.containerDesafio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    height: 60vh;
+    margin: 0;
+    padding: 0;
+}
+
+.containerDesafio canvas{
+    max-width: 80%;
+    height: 40%;
+    background-color: rgb(19, 19, 19);
+}
+
